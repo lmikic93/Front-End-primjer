@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Holjenko interijeri</title>	
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<script type="text/javascript">
+		$(window).load(function(){
+	      $('.flexslider').flexslider({
+	        animation: "fade",
+	        slideshowSpeed: 4500,
+	      });
+	    });
+	</script>
+	<div id="div-header">
+		<div id="div-logo">
+			<a href="index.html"><img src="images/hoki-web4.png"></a>
+		</div>
+		<div id="div-poruka">
+			<p>Obratite nam se s povjerenjem!</p>
+		</div>
+		<div id="div-header-menu">
+			<ul>
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="o-nama.html">O nama</a></li>
+				<li><a href="gallery.html">Galerija proizvoda</a></li>
+				<li class="active-page"><a href="contact.html">Kontakt</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--End header!-->
+	<div id="div-contact">
+		<div id="div-contact-form">
+			<div class="contact-container">  
+			  <h2>Kontaktirajte nas !</h2>
+			  <form id="contact" action="" method="post">		    
+			    <fieldset>
+			      <input placeholder="Ime" type="text" tabindex="1" required autofocus>
+			    </fieldset>
+			    <fieldset>
+			      <input placeholder="Email adresa" type="email" tabindex="2" required>
+			    </fieldset>
+			    <fieldset>
+			      <textarea placeholder="Vaša poruka...." tabindex="3" required></textarea>
+			    </fieldset>
+			    <fieldset>
+			      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Pošalji</button>
+			    </fieldset>
+			  </form>  
+			</div>
+		</div>
+		<div id="div-contact-data">
+			<p>Holjenko interijeri d.o.o.</p>
+			<p>Vlasnik: Josip Holjenko</p>
+			<p>Telefon: 099 710 4229</p>
+			<p>E-mail adresa: <a href="mailto:holjenko-interijeri@gmail.com">holjenko-interijeri@gmail.com</a></p>
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44726.55742766403!2d17.81731650468197!3d45.52195758669654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475d71b189311573%3A0xb6948362dffa579!2sOrahovica!5e0!3m2!1shr!2shr!4v1505767940308" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+		</div>
+	</div>
+	<!-- end #content -->
+	<div id="div-footer">
+		<p class="copyright">© 2017 | Holjenko interijeri</p>
+		<p class="contact-widget-mail"><i class="fa fa-envelope" style="color:#ffffff;"></i><a href="mailto:holjenko-interijeri@gmail.com">holjenko-interijeri@gmail.com</a></p>
+		<p class="contact-widget-phone"><i class="fa fa-phone" style="color:#ffffff;"></i>099 710 4229</p>
+	</div>
+</body>
+</html>
